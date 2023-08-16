@@ -19,6 +19,17 @@ $start_SH = $start_loop + 4;
 $last_page = $last_val / 5;
 $page_start_position = (($start_loop - 1) * 5) + 1;
 $page_end_position = ($start_loop * 5);
+/*PRINTING VALUES*/
+echo $st_page;
+echo $countall;
+echo $rowcount;
+echo $__page;
+echo $start_loop;
+echo $last_val;
+echo $start_SH;
+echo $last_page;
+echo $page_start_position;
+echo $page_end_position;
 ?>
  <head>
   <title>Page <?php echo $start_loop; ?></title>

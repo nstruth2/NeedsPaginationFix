@@ -79,7 +79,7 @@ if ($__page - 1 <= $start_SH) {
   <ul class="pagination justify-content-center">
 <?php
 if ($st_page > 5) {
-    $vars = ['page' => 1, 'values' => 0];
+    $vars = ['page' => 1, 'values' => 5];
     $querystring = http_build_query($vars);
     printf('<li class="page-item"><a class="page-link" href="pagination.php?%s">First</a></li>', $querystring);
     printf('<li class="page-item"><a class="page-link" href="pagination.php?values=%d">&laquo;</a></li>', $st_page - 5);

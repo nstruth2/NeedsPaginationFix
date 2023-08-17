@@ -20,16 +20,33 @@ $last_page = $last_val / 5;
 $page_start_position = (($start_loop - 1) * 5) + 1;
 $page_end_position = ($start_loop * 5);
 /*PRINTING VALUES*/
+echo "st_page:";
 echo $st_page;
-echo $countall;
+echo "<br>";
+echo "rowcount: ";
 echo $rowcount;
+echo "<br>";
+echo "__page: ";
 echo $__page;
+echo "<br>";
+echo "start_loop: ";
 echo $start_loop;
+echo "<br>";
+echo "last_val: ";
 echo $last_val;
+echo "<br>";
+echo "start_SH: ";
 echo $start_SH;
+echo "<br>";
+echo "last_page: ";
 echo $last_page;
+echo "<br>";
+echo "page_start_position: ";
 echo $page_start_position;
+echo "<br>";
+echo "page_end_position: ";
 echo $page_end_position;
+echo "<br>";
 ?>
  <head>
   <title>Page <?php echo $start_loop; ?></title>
